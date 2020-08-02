@@ -143,7 +143,7 @@ public:
      *         [r21 r22 r23 ty]
      *         [r31 r32 r33 tz]
      *         [  0   0   0  1],
-     *  describing the tranformation from object coordinates X_m
+     *  describing the transformation from object coordinates X_m
      *  into camera coordinates X_c.This pose is applied when reset()
      *  is called.
      *

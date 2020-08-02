@@ -77,10 +77,10 @@ public:
     ~Model();
     
     /**
-     *  Draws the model with a given shader programm and
+     *  Draws the model with a given shader program and
      *  a specified OpenGL data primitive type using VBOs.
      *
-     *  @param  program    The shader programm to be used.
+     *  @param  program    The shader program to be used.
      *  @param  primitives The primitive type that shall be used for drawing (e.g. GL_POINTS, GL_LINES,...). The default value is set to GL_TRIANGLES.
      */
     void draw(QOpenGLShaderProgram *program, GLint primitives = GL_TRIANGLES);
@@ -102,7 +102,7 @@ public:
     void initialize();
     
     /**
-     *  Tells whether the model has been initilaized for tracking.
+     *  Tells whether the model has been initialized for tracking.
      *
      *  @return True if it has been initialized and false otherwise.
      */
@@ -129,7 +129,7 @@ public:
      *         [r21 r22 r23 ty]
      *         [r31 r32 r33 tz]
      *         [  0   0   0  1],
-     *  describing the trandformation from object coordinates X_m
+     *  describing the transformation from object coordinates X_m
      *  into camera coordinates X_c.
      *
      *  @param  T_cm The new 6DOF pose of the model.
@@ -143,7 +143,7 @@ public:
      *         [r21 r22 r23 ty]
      *         [r31 r32 r33 tz]
      *         [  0   0   0  1],
-     *  describing the trandformation from object coordinates X_m
+     *  describing the tranformation from object coordinates X_m
      *  into camera coordinates X_c.This pose is applied when reset()
      *  is called.
      *

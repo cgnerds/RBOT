@@ -4,6 +4,7 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
+                "/usr/local/include",
                 "/usr/local/include/opencv4",
                 "/usr/local/Cellar/qt/5.13.2/include",
                 "/usr/local/Cellar/qt/5.13.2/lib/QtGui.framework/Versions/5/Headers",

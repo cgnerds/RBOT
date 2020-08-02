@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4",
+                "/usr/local/Cellar/qt/5.13.2/include",
+                "/usr/local/Cellar/qt/5.13.2/lib/QtGui.framework/Versions/5/Headers",
+                "/usr/local/Cellar/qt/5.13.2/lib/QtCore.framework/Versions/5/Headers",
+                "/usr/local/Cellar/qt/5.13.2/lib/QtOpenGL.framework/Versions/5/Headers",
+                "/usr/local/Cellar/qt/5.13.2/lib/QtWidgets.framework/Versions/5/Headers"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/gcc-9",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
